@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail song</title>
+    <link rel="stylesheet" href="song-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="contents">
+        <img src="/Assets/Arrow.png" id="back-button-icon" onclick="goBack()">
+            
+        <div class="the-song">
+            
+            <div class="left-content">
+                <figure>
+                    <img src="/Assets/love is an open door.jpg" id="the-song-pic">
+                    <div class="info">
+                        <p class="song-title">Love is an open door</p>
+                        <audio id="audio-web" src="/Assets/love is an open door.mp3" controls></audio>
+                
+                        <p class="song-artist">Artist : Kristen Bell and Santino Fontana</p>
+                        <p class="song-album">Album : Frozen </p>
+                        <p>Genre : Show tune</p>
+                        <p class="release-date">Release date : November 25, 2013 </p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="mid-content">
+                <h2>Lyric</h2>
+                <div class="lyrics-box">
+                    <p class="lyrics">
+                        Okay, can I just, say something crazy?<br><br>
+                        I love crazy!<br><br>
+                        All my life has been a series of doors in my face<br>
+                        And then suddenly I bump into you<br><br>
+                        I was thinking the same thing! 'Cause like<br>
+                        I've been searching my whole life to find my own place<br>
+                        And maybe it's the party talking or the chocolate fondue<br><br>
+                        But with you<br>
+                        But with you<br><br>
+                        I found my place<br>
+                        I see your face<br><br>
+                        And it's nothing like I've ever known before!<br>
+                        Love is an open door!<br>
+                        Love is an open door!<br>
+                        Love is an open door!<br><br>
+                        With you!<br>
+                        With you!<br>
+                        With you!<br>
+                        With you!<br><br>
+                        Love is an open door<br><br>
+                        I mean it's crazy<br>
+                        What?<br><br>
+                        We finish each other's<br>
+                        Sandwiches!<br><br>
+                        That's what I was gonna say!<br><br>
+                        I've never met someone<br><br>
+                        Who thinks so much like me!<br>
+                        Jinx! Jinx again!<br>
+                        Our mental synchronization<br>
+                        Can have but one explanation<br><br>
+                        You<br>
+                        And I<br>
+                        Were<br>
+                        Just<br><br>
+                        Meant to be!<br><br>
+                        Say goodbye<br>
+                        Say goodbye<br><br>
+                        To the pain of the past<br>
+                        We don't have to feel it anymore!<br><br>
+                        Love is an open door!<br>
+                        Love is an open door!<br>
+                        Life can be so much more!<br><br>
+                        With you!<br>
+                        With you!<br>
+                        With you!<br>
+                        With you!<br><br>
+                        Love is an open door<br><br>
+                        Can I say something crazy?<br>
+                        Will you marry me?<br><br>
+                        Can I say something even crazier? Yes!<br>
+                    </p>
+                </div>
+            </div>
+            <div class="right-content">
+                <h2 class="Queue">Other songs</h2>
+                <div class="rec-grid">
+                    <div class="rec-song-list">
+                        <a href="/song-detail/intrusive-thoughts-natalie-jane.html" class="list">
+                            <img src="/Assets/Intrusive Thoughts.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Intrusive Thoughts</p>
+                                <p class="artist">Natalie Jane</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/wake-me-up-avicii.html" class="list">
+                            <img src="/Assets/wake-me-up-avicii.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Wake Me Up</p>
+                                <p class="artist">Avicii</p>
+                            </div>
+                        </a>
+                        
+                        <a href="/song-detail/fearless-tylor-swift.html" class="list">
+                            <img src="/Assets/fearless.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Fearless</p>
+                                <p class="artist">Tylor Swift</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/unconditionally.html" class="list">
+                            <img src="/Assets/unconditionally.png" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Unconditionally</p>
+                                <p class="artist">Katy Perry</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/rewrite-the-stars.html" class="list">
+                            <img src="/Assets/rewrite the stars - the greatest showman.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Rewrite the Stars</p>
+                                <p class="artist"> Anne-Marie and James Arthur</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/beauty-and-the-beast.html" class="list">
+                            <img src="/Assets/beauty and the beast.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Beauty and the Beast</p>
+                                <p class="artist">Ariana Grande and John Legend</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/For the First Time in Forever.html" class="list">
+                            <img src="/Assets/frozen.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">For the First Time in Forever</p>
+                                <p class="artist">Idina Menzel and Kristen Bell</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Willify. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+
+    <div id="whiteBox" class="white-box">
+        <nav id="whiteNavigation" class="white-navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>

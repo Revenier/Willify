@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/register/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="register">
+        <div class="regis">
+            <h2>Welcome to Willify</h2>
+            <form id="registrationForm">
+                <div class="typetext" >
+                    <div class="textinfo">Name</div>
+                    <input type="text" placeholder="Enter Name" name="enterName" required>
+                </div>
+                <div class="typetext" >
+                    <div class="textinfo">Email</div>
+                    <input type="email" placeholder="Enter Email" name="enterEmail" required>
+                </div>
+                <div class="typetext">
+                    <div class="textinfo">Password</div>
+                    <input type="password" placeholder="Enter Password" name="EnterPw" required>
+                </div>
+                <div class="typetext" >
+                    <div class="textinfo">Age</div>
+                    <input type="number" placeholder="Enter Age" name="EnterAge" required>
+                </div>
+                <div class="gender-radio">
+                    <label>
+                        <input type="radio" name="gender" value="male">
+                        <div class="gender-info">Male</div>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        <div class="gender-info">Female</div>
+                    </label>
+                </div>
+            </form>
+            
+
+            <button class="regis-btn" onclick="validateForm()">Register</button>
+
+            <a href="/home/home.html" class="home-button">Back to main page</a>
+        </div>
+    </div>
+
+    
+
+    <script src="/main.js"></script>
+</body>
+
+</html>

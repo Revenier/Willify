@@ -1,0 +1,438 @@
+header {
+    display: flex;
+    direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between  ;
+    box-sizing: border-box;
+    top: 0;
+    padding: 10px;
+    position: fixed;
+    background: rgb(178,202,255);
+    background: linear-gradient(90deg, rgba(178,202,255,1) 0%, rgba(255,216,219,1) 100%);
+    }
+
+.logo_name {
+    display: flex;
+    direction: row;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    font-size: 600;
+}
+
+#logo {
+    width: 40px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    text-decoration: none; 
+}
+
+.home-button {
+    color: #0000008a;
+}
+
+.music-button {
+    color: #0000008a;
+}
+
+.about-us-button {
+    color: #0000008a;
+}
+
+.navigation a:hover {
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.register-button {
+    padding: 5px 10px;
+    background-color: #BC9AA8;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.register-button:hover {
+    background-color: #b48196;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    background: rgb(178,202,255);
+    background: linear-gradient(90deg, rgba(178,202,255,1) 0%, rgba(255,216,219,1) 100%);
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.contents {
+    padding-top: 40px;
+}
+
+footer {
+    width: 100%;
+    background-color: #f8f9fa00;
+    color: #0000008a;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    margin-right: 20px; 
+}
+
+/* Content */
+
+.the-song {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #333;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
+    padding-top: 30px;
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.left-content {
+    width: 35%;
+    margin-bottom: 0px;
+
+}
+
+.mid-content {
+    width: 40%;
+
+}
+
+.right-content {
+    width: 25%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 40px 0px 40px;
+    
+}
+
+#audio-web {
+    align-items: center;
+    justify-items: center;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+
+
+.lyrics {
+    text-align: center;
+}
+
+.the-song h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.song-title {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.song-artist {
+    margin-top: 0px;
+}
+
+#back-button-icon {
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 50px;
+    width: 30px;
+}
+
+.lyrics-box {
+    height: 550px;
+    overflow-y: auto;
+}
+
+#the-song-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+}
+
+/* right list song in content */
+
+
+.rec-grid {
+    width: 100%;
+    
+}
+
+.rec-song-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+#rec-song-pic {
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rec-song-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.list p {
+    margin: 2px;
+}
+
+.artist {
+    font-size: smaller;
+    color: #333;
+}
+
+.song-name {
+    font-weight: bold;
+    font-size: large;
+}
+
+@media screen and (max-width: 1100px) {
+
+    #back-button-icon {
+        position: fixed;
+        margin-top: 50px;
+        margin-left: 35px;
+        width: 30px;
+    }
+
+    .the-song{
+        padding: 15px;
+    }
+
+    .right-content {
+        display: none;
+    }
+
+    .left-content {
+        width: 50%;
+    }
+
+    .mid-content {
+        width: 50%;
+    }
+
+    #back-button-icon {
+        width: 25px;
+    }
+
+    .song-title {
+        font-size: medium;
+        margin: 0;
+        
+    }
+
+    #the-song-pic {
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .lyrics {
+        font-size: small;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    #the-song-pic {
+        width: 90px;
+        height: 90px;
+        border-radius: 10px;
+    }
+
+    .info p {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .lyrics-box {
+        height: 550px;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 705px) {
+
+
+
+    .the-song {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .right-content {
+        display: none;
+    }
+
+    .left-content,
+    .mid-content {
+        width: 100%;
+    }
+
+    .left-content {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .mid-content {
+        order: 2;
+    }
+
+    #back-button-icon {
+        width: 25px;
+    }
+
+    .song-title {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #the-song-pic {
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width: 433px) {
+
+    .lyrics {
+        font-size: 10px;
+    }
+
+
+    .footer {
+        font-size: x-small;
+    }
+
+    .info p {
+        font-size: 10px;
+    }
+
+    #audio-web {
+        display: none;
+    }
+    
+
+}
+
+
+/* Until here */
+
+
+
+@media screen and (max-width: 768px) {
+    .navigation{
+    display: none;
+}
+    
+.hamburger-icon {
+    display: block;
+    font-size: 24px;
+    background-color: #00000000;
+    border-color: #00000000;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+
+.white-box {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 120px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.white-box.show {
+    display: block;
+}
+
+.white-navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.white-navigation a {
+    display: block;
+    padding: 10px;
+    color: #202334;
+    text-decoration: none;
+}
+
+.white-navigation a:hover {
+    background-color: #ffd8db;
+}
+
+}
+
+@media screen and (min-width: 769px) {
+.hamburger-icon {
+    display: none;
+}
+
+.white-navigation {
+    display: none;
+}
+}

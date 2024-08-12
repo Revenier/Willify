@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail song</title>
+    <link rel="stylesheet" href="song-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="contents">
+
+        <img src="/Assets/Arrow.png" id="back-button-icon" onclick="goBack()">
+            
+        <div class="the-song">
+            
+            <div class="left-content">
+                <figure>
+                    <img src="/Assets/beauty and the beast.jpeg" id="the-song-pic">
+                    <div class="info">
+                        <p class="song-title">Beauty and the Beast</p>
+                        <audio id="audio-web" src="/Assets/Ariana Grande & John Legend - Beauty and the Beast.mp3" controls></audio>
+                
+                        <p class="song-artist">Artist : Ariana Grande dan John Legend</p>
+                        <p class="song-album">Album : Beauty and the Beast: Original Motion Picture Soundtrack</p>
+                        <p>Genre : Show tune</p>
+                        <p class="release-date">Release date : February 3, 2017</p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="mid-content">
+                <h2>Lyric</h2>
+                <div class="lyrics-box">
+                    <p class="lyrics">
+                        Tale as old as time<br>
+                        True as it can be<br>
+                        Barely even friends<br>
+                        Then somebody bends<br>
+                        Unexpectedly<br><br>
+                        Just a little change<br>
+                        Small to say the least<br>
+                        Both a little scared<br>
+                        Neither one prepared<br>
+                        Beauty and the Beast<br><br>
+                        Ever just the same<br>
+                        Ever a surprise<br>
+                        Ever as before<br>
+                        And ever just as sure<br>
+                        As the sun will rise, oh<br><br>
+                        Ever just the same, oh<br>
+                        And ever a surprise, yeah<br>
+                        Ever as before<br>
+                        And ever just as sure<br>
+                        As the sun will rise<br>
+                        Oh, oh, oh<br><br>
+                        Tale as old as time<br>
+                        Tune as old as song, oh<br>
+                        Bitter-sweet and strange<br>
+                        Finding you can change<br>
+                        Learning you were wrong, oh<br><br>
+                        Certain as the sun<br>
+                        Certain as the sun<br>
+                        Rising in the east<br>
+                        Tale as old as time<br>
+                        Song as old as rhyme<br>
+                        Beauty and the Beast<br><br>
+                        Tale as old as time<br>
+                        Song as old as rhyme<br>
+                        Beauty and the Beast<br>
+                        Woah<br>
+                        Beauty and<br>
+                        Beauty and the Beast<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <h2 class="Queue">Other songs</h2>
+                <div class="rec-grid">
+                    <div class="rec-song-list">
+                        <a href="/song-detail/intrusive-thoughts-natalie-jane.html" class="list">
+                            <img src="/Assets/Intrusive Thoughts.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Intrusive Thoughts</p>
+                                <p class="artist">Natalie Jane</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/wake-me-up-avicii.html" class="list">
+                            <img src="/Assets/wake-me-up-avicii.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Wake Me Up</p>
+                                <p class="artist">Avicii</p>
+                            </div>
+                        </a>
+                        
+                        <a href="/song-detail/fearless-tylor-swift.html" class="list">
+                            <img src="/Assets/fearless.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Fearless</p>
+                                <p class="artist">Tylor Swift</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/unconditionally.html" class="list">
+                            <img src="/Assets/unconditionally.png" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Unconditionally</p>
+                                <p class="artist">Katy Perry</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/rewrite-the-stars.html" class="list">
+                            <img src="/Assets/rewrite the stars - the greatest showman.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Rewrite the Stars</p>
+                                <p class="artist"> Anne-Marie and James Arthur</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/love-is-an-open-door.html" class="list">
+                            <img src="/Assets/love is an open door.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Love is an open door</p>
+                                <p class="artist">Kristen Bell and Santino Fontana</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/For the First Time in Forever.html" class="list">
+                            <img src="/Assets/frozen.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">For the First Time in Forever</p>
+                                <p class="artist">Idina Menzel and Kristen Bell</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Willify. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+
+    <div id="whiteBox" class="white-box">
+        <nav id="whiteNavigation" class="white-navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail song</title>
+    <link rel="stylesheet" href="song-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="contents">
+        <img src="/Assets/Arrow.png" id="back-button-icon" onclick="goBack()">
+            
+        <div class="the-song">
+            
+            <div class="left-content">
+                <figure>
+                    <img src="/Assets/rewrite the stars - the greatest showman.jpg" id="the-song-pic">
+                    <div class="info">
+                        <p class="song-title">Rewrite the stars</p>
+                        <audio id="audio-web" src="/Assets/Rewrite The Stars - James Arthur feat. Anne Marie.mp3" controls></audio>
+                
+                        <p class="song-artist">Artist : Zac Efron and Zendaya</p>
+                        <p class="song-album">Album : The Greatest Showman: Original Motion Picture Soundtrack</p>
+                        <p>Genre : Musical</p>
+                        <p class="release-date">Release date : November 17, 2017 </p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="mid-content">
+                <h2>Lyric</h2>
+                <div class="lyrics-box">
+                    <p class="lyrics">
+                        You know I want you<br>
+                        It's not a secret I try to hide<br>
+                        You know you want me<br>
+                        So don't keep saying our hands are tied<br>
+                        You claim it's not in the cards<br>
+                        And faith is pulling you miles away<br>
+                        And out of a reach from me<br>
+                        But you're hearing my heart<br>
+                        So who can stop me if I decide it's on my destiny?<br><br>
+                        What if we rewrite the stars?<br>
+                        Say you were made to be mine<br>
+                        Nothing could keep us apart<br>
+                        You'll be the one I was meant to find<br>
+                        It's up to you and it's up to me<br>
+                        No one could say what we get to be<br>
+                        So why don't we rewrite the stars?<br>
+                        And maybe the world could be ours tonight<br><br>
+                        You think it's easy<br>
+                        You think I don't wanna grow onto you, yeah<br>
+                        But there are mountains (but there are mountains)<br>
+                        And there are doors that we can't walk through<br>
+                        I know you're wondering why<br>
+                        Because we're able to be just you and me within these walls<br>
+                        But when we go outside you're gonna wake up<br>
+                        And see that it was hopeless after all<br><br>
+                        No one can rewrite the stars<br>
+                        How can you say you'll be mine?<br>
+                        Everything keeps us apart<br>
+                        And I'm not the one you were meant to find<br>
+                        (the one you were meant to find)<br>
+                        It's not up to you, it's not up to me<br>
+                        When everyone tells us what we can be<br>
+                        And how come we rewrite the stars?<br>
+                        Say that the world can be ours tonight<br><br>
+                        All I want is to fly with you<br>
+                        All I want is to fall with you<br>
+                        So just give me all of you<br>
+                        It feels impossible (it's not impossible)<br>
+                        Is it impossible? (Say that it's possible)<br><br>
+                        And how do we rewrite the stars?<br>
+                        Say you were made to be mine<br>
+                        And nothing could keep us apart<br>
+                        'Cause you are the one I was meant to find<br>
+                        It's up to you, and it's up to me<br>
+                        No one could say what we get to be<br>
+                        And why don't we rewrite the stars?<br>
+                        Changing the world to be ours<br><br>
+                        You know I want you<br>
+                        It's not a secret I try to hide<br>
+                        But I can't have you<br>
+                        We're bound to break and my hands are tied<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <h2 class="Queue">Other songs</h2>
+                <div class="rec-grid">
+                    <div class="rec-song-list">
+                        <a href="/song-detail/intrusive-thoughts-natalie-jane.html" class="list">
+                            <img src="/Assets/Intrusive Thoughts.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Intrusive Thoughts</p>
+                                <p class="artist">Natalie Jane</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/wake-me-up-avicii.html" class="list">
+                            <img src="/Assets/wake-me-up-avicii.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Wake Me Up</p>
+                                <p class="artist">Avicii</p>
+                            </div>
+                        </a>
+                        
+                        <a href="/song-detail/fearless-tylor-swift.html" class="list">
+                            <img src="/Assets/fearless.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Fearless</p>
+                                <p class="artist">Tylor Swift</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/unconditionally.html" class="list">
+                            <img src="/Assets/unconditionally.png" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Unconditionally</p>
+                                <p class="artist">Katy Perry</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/beauty-and-the-beast.html" class="list">
+                            <img src="/Assets/beauty and the beast.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Beauty and the Beast</p>
+                                <p class="artist">Ariana Grande and John Legend</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/love-is-an-open-door.html" class="list">
+                            <img src="/Assets/love is an open door.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Love is an open door</p>
+                                <p class="artist">Kristen Bell and Santino Fontana</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/For the First Time in Forever.html" class="list">
+                            <img src="/Assets/frozen.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">For the First Time in Forever</p>
+                                <p class="artist">Idina Menzel and Kristen Bell</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Willify. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+
+    <div id="whiteBox" class="white-box">
+        <nav id="whiteNavigation" class="white-navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail song</title>
+    <link rel="stylesheet" href="song-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="contents">
+        <img src="/Assets/Arrow.png" id="back-button-icon" onclick="goBack()">
+            
+        <div class="the-song">
+            
+            <div class="left-content">
+                <figure>
+                    <img src="/Assets/frozen.jpg" id="the-song-pic">
+                    <div class="info">
+                        <p class="song-title">For the First Time in Forever</p>
+                        <audio id="audio-web" src="/Assets/Kristen Bell, Idina Menzel - For the First Time in Forever.mp3" controls></audio>
+                
+                        <p class="song-artist">Artist : Idina Menzel dan Kristen Bell</p>
+                        <p class="song-album">Film : Frozen </p>
+                        <p>Genre : Show tune</p>
+                        <p class="release-date">Release date : 	November 25, 2013</p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="mid-content">
+                <h2>Lyric</h2>
+                <div class="lyrics-box">
+                    <p class="lyrics">
+                        The window is open, so's that door<br>
+                        I didn't know they did that anymore<br>
+                        Who knew we owned eight thousand salad plates?<br>
+                        For years I've roamed these empty halls<br>
+                        Why have a ballroom with no balls?<br>
+                        Finally they're opening up the gates<br><br>
+                        There'll be actual real live people<br>
+                        It'll be totally strange<br>
+                        But wow, am I so ready for this change?<br><br>
+                        'Cause for the first time in forever<br>
+                        There'll be music, there'll be light<br>
+                        For the first time in forever<br>
+                        I'll be dancing through the night<br><br>
+                        Don't know if I'm elated or gassy<br>
+                        But I'm somewhere in that zone<br>
+                        'Cause for the first time in forever<br>
+                        I won't be alone<br><br>
+                        I can't wait to meet everyone!<br>
+                        What if I meet the one?<br><br>
+                        Tonight imagine me gown and all<br>
+                        Fetchingly draped against the wall<br>
+                        The picture of sophisticated grace<br>
+                        Ooh! I suddenly see him standing there<br>
+                        A beautiful stranger, tall and fair<br>
+                        I wanna stuff some chocolate in my face<br><br>
+                        But then we laugh and talk all evening<br>
+                        Which is totally bizarre<br>
+                        Nothing like the life I've led so far<br><br>
+                        For the first time in forever<br>
+                        There'll be magic, there'll be fun<br>
+                        For the first time in forever<br>
+                        I could be noticed by someone<br><br>
+                        And I know it is totally crazy<br>
+                        To dream I'd find romance<br>
+                        But for the first time in forever<br>
+                        At least I've got a chance<br><br>
+                        Don't let them in, don't let them see<br>
+                        Be the good girl you always have to be<br>
+                        Conceal, don't feel, put on a show<br>
+                        Make one wrong move and everyone will know<br><br>
+                        But it's only for today<br>
+                        It's only for today<br>
+                        It's agony to wait<br>
+                        It's agony to wait<br><br>
+                        Tell the guards to open up the gate<br>
+                        The gate<br><br>
+                        For the first time in forever<br>
+                        Don't let them in, don't let them see<br>
+                        I'm getting what I'm dreaming of<br>
+                        Be the good girl you always have to be<br>
+                        A chance to change my lonely world<br>
+                        Conceal<br>
+                        A chance to find true love<br>
+                        Conceal, don't feel, don't let them know<br><br>
+                        I know it all ends tomorrow<br>
+                        So it has to be today<br>
+                        'Cause for the first time in forever<br>
+                        For the first time in forever<br>
+                        Nothing's in my way!<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <h2 class="Queue">Other songs</h2>
+                <div class="rec-grid">
+                    <div class="rec-song-list">
+                        <a href="/song-detail/intrusive-thoughts-natalie-jane.html" class="list">
+                            <img src="/Assets/Intrusive Thoughts.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Intrusive Thoughts</p>
+                                <p class="artist">Natalie Jane</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/wake-me-up-avicii.html" class="list">
+                            <img src="/Assets/wake-me-up-avicii.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Wake Me Up</p>
+                                <p class="artist">Avicii</p>
+                            </div>
+                        </a>
+                        
+                        <a href="/song-detail/fearless-tylor-swift.html" class="list">
+                            <img src="/Assets/fearless.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Fearless</p>
+                                <p class="artist">Tylor Swift</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/unconditionally.html" class="list">
+                            <img src="/Assets/unconditionally.png" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Unconditionally</p>
+                                <p class="artist">Katy Perry</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/rewrite-the-stars.html" class="list">
+                            <img src="/Assets/rewrite the stars - the greatest showman.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Rewrite the Stars</p>
+                                <p class="artist"> Anne-Marie and James Arthur</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/beauty-and-the-beast.html" class="list">
+                            <img src="/Assets/beauty and the beast.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Beauty and the Beast</p>
+                                <p class="artist">Ariana Grande and John Legend</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/love-is-an-open-door.html" class="list">
+                            <img src="/Assets/love is an open door.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Love is an open door</p>
+                                <p class="artist">Kristen Bell and Santino Fontana</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Willify. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+
+    <div id="whiteBox" class="white-box">
+        <nav id="whiteNavigation" class="white-navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>

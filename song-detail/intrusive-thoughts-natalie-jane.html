@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail song</title>
+    <link rel="stylesheet" href="song-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="contents">
+        <img src="/Assets/Arrow.png" id="back-button-icon" onclick="goBack()">
+            
+        <div class="the-song">
+            
+            <div class="left-content">
+                <figure>
+                    <img src="/Assets/Intrusive Thoughts.jpeg" id="the-song-pic">
+                    <div class="info">
+                        <p class="song-title">Intrusive Thoughts</p>
+                        <audio id="audio-web" src="/Assets/Natalie+Jane+-+Intrusive+Thoughts.mp3" controls></audio>
+                
+                        <p class="song-artist">Artist : Natalie Jane </p>
+                        <p class="song-album">Album : Where Am I? </p>
+                        <p>Genre : Pop</p>
+                        <p class="release-date">Release date : 27 October 2023</p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="mid-content">
+                <h2>Lyric</h2>
+                <div class="lyrics-box">
+                    <p class="lyrics">
+                        I'm historically heartbroken<br>
+                        Drowning in my own emotions<br>
+                        One minute away from breaking down, down, down<br>
+                        I'm always leaving empty-handed<br>
+                        No one wants a heart that's damaged<br>
+                        Only know a love that lets me down, down, down, oh<br><br>
+                        Staring contest with the walls<br>
+                        I'm giving into my intrusive thoughts<br><br>
+                        What if I never find anybody to love<br>
+                        Or I finally get the chance and I fuck it all up?<br>
+                        'Cause I can't get hurt if I'm the first one to leave<br>
+                        Whoa, what if I get to heaven, and it's not even real<br>
+                        And I die before telling you how I really feel?<br>
+                        'Cause it feels like hell and I just can't help but think<br>
+                        That maybe love's not for me<br><br>
+                        If you don't look too closely<br>
+                        You can't even tell I'm lonely<br>
+                        Even though it keeps me up at night, night, night, night<br>
+                        Tryna keep myself distracted<br>
+                        But I get all these awful habits<br>
+                        Of listening to voices in my mind, mind, mind, oh<br><br>
+                        Staring contest with the walls<br>
+                        I'm giving into my intrusive thoughts, oh<br><br>
+                        What if I never find anybody to love<br>
+                        Or I finally get the chance and I fuck it all up?<br>
+                        'Cause I can't get hurt if I'm the first one to leave? Whoa<br>
+                        What if I get to heaven, and it's not even real<br>
+                        And I die before telling you how I really feel<br>
+                        'Cause it feels like hell and I just can't help but think<br>
+                        Maybe love's not for me, oh-oh<br>
+                        Maybe love's not for me, oh-oh<br><br>
+                        Maybe love's not for me<br>
+                        Maybe love's not for me<br>
+                        For me, for me, for me<br>
+                        Maybe love's not for me<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <h2 class="Queue">Other songs</h2>
+
+                <div class="rec-grid">
+                    <div class="rec-song-list">
+       
+                        <a href="/song-detail/wake-me-up-avicii.html" class="list">
+                            <img src="/Assets/wake-me-up-avicii.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Wake Me Up</p>
+                                <p class="artist">Avicii</p>
+                            </div>
+                        </a>
+                        
+                        <a href="/song-detail/fearless-tylor-swift.html" class="list">
+                            <img src="/Assets/fearless.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Fearless</p>
+                                <p class="artist">Tylor Swift</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/unconditionally.html" class="list">
+                            <img src="/Assets/unconditionally.png" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Unconditionally</p>
+                                <p class="artist">Katy Perry</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/rewrite-the-stars.html" class="list">
+                            <img src="/Assets/rewrite the stars - the greatest showman.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Rewrite the Stars</p>
+                                <p class="artist"> Anne-Marie and James Arthur</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/beauty-and-the-beast.html" class="list">
+                            <img src="/Assets/beauty and the beast.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Beauty and the Beast</p>
+                                <p class="artist">Ariana Grande and John Legend</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/love-is-an-open-door.html" class="list">
+                            <img src="/Assets/love is an open door.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Love is an open door</p>
+                                <p class="artist">Kristen Bell and Santino Fontana</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/For the First Time in Forever.html" class="list">
+                            <img src="/Assets/frozen.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">For the First Time in Forever</p>
+                                <p class="artist">Idina Menzel and Kristen Bell</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+</body>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Willify. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+
+    <div id="whiteBox" class="white-box">
+        <nav id="whiteNavigation" class="white-navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>

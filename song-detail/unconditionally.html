@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail song</title>
+    <link rel="stylesheet" href="song-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="contents">
+        <img src="/Assets/Arrow.png" id="back-button-icon" onclick="goBack()">
+            
+        <div class="the-song">
+            
+            <div class="left-content">
+                <figure>
+                    <img src="/Assets/unconditionally.png" id="the-song-pic">
+                    <div class="info">
+                        <p class="song-title">Unconditionally</p>
+                        <audio id="audio-web" src="/Assets/Katy Perry - Unconditionally.mp3" controls></audio>
+                        <p class="song-artist">Artist : Katy Perry</p>
+                        <p class="song-album">Album : Prism</p>
+                        <p>Genre : Pop</p>
+                        <p class="release-date">Release date : 16 October 2013</p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="mid-content">
+                <h2>Lyric</h2>
+                <div class="lyrics-box">
+                    <p class="lyrics">
+                        Oh, no, did I get too close?<br>
+                        Oh, did I almost see what's really on the inside?<br>
+                        All your insecurities<br>
+                        All the dirty laundry<br>
+                        Never made me blink one time<br><br>
+                        Unconditional, unconditionally<br>
+                        I will love you unconditionally<br>
+                        There is no fear now<br>
+                        Let go and just be free<br>
+                        I will love you unconditionally<br><br>
+                        Come just as you are to me<br>
+                        Don't need apologies<br>
+                        Know that you are worthy<br><br>
+                        I'll take your bad days with your good<br>
+                        Walk through the storm, I would<br>
+                        I do it all because I love you<br>
+                        I love you<br>
+                        Unconditional, unconditionally<br>
+                        I will love you unconditionally<br>
+                        There is no fear now<br>
+                        Let go and just be free<br>
+                        I will love you unconditionally<br><br>
+                        So open up your heart and just let it begin<br>
+                        Open up your heart and just let it begin<br>
+                        Open up your heart and just let it begin<br>
+                        Open up your heart<br><br>
+                        Acceptance is the key to be<br>
+                        To be truly free<br>
+                        Will you do the same for me?<br><br>
+                        Unconditional, unconditionally
+                        I will love you unconditionally, yeah<br>
+                        And there is no fear now<br>
+                        Let go and just be free<br>
+                        'Cause I will love you unconditionally, oh, yeah<br><br>
+                        I will love you (unconditionally)<br>
+                        I will love you<br>
+                        I will love you unconditionally<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <h2 class="Queue">Other songs</h2>
+                <div class="rec-grid">
+                    <div class="rec-song-list">
+                        <a href="/song-detail/intrusive-thoughts-natalie-jane.html" class="list">
+                            <img src="/Assets/Intrusive Thoughts.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Intrusive Thoughts</p>
+                                <p class="artist">Natalie Jane</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/wake-me-up-avicii.html" class="list">
+                            <img src="/Assets/wake-me-up-avicii.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Wake Me Up</p>
+                                <p class="artist">Avicii</p>
+                            </div>
+                        </a>
+                        
+                        <a href="/song-detail/fearless-tylor-swift.html" class="list">
+                            <img src="/Assets/fearless.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Fearless</p>
+                                <p class="artist">Tylor Swift</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/rewrite-the-stars.html" class="list">
+                            <img src="/Assets/rewrite the stars - the greatest showman.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Rewrite the Stars</p>
+                                <p class="artist"> Anne-Marie and James Arthur</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/beauty-and-the-beast.html" class="list">
+                            <img src="/Assets/beauty and the beast.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Beauty and the Beast</p>
+                                <p class="artist">Ariana Grande and John Legend</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/love-is-an-open-door.html" class="list">
+                            <img src="/Assets/love is an open door.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Love is an open door</p>
+                                <p class="artist">Kristen Bell and Santino Fontana</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/For the First Time in Forever.html" class="list">
+                            <img src="/Assets/frozen.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">For the First Time in Forever</p>
+                                <p class="artist">Idina Menzel and Kristen Bell</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Willify. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+
+    <div id="whiteBox" class="white-box">
+        <nav id="whiteNavigation" class="white-navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>

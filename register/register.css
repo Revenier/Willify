@@ -1,0 +1,271 @@
+header {
+    display: flex;
+    direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between  ;
+    box-sizing: border-box;
+    top: 0;
+    padding: 10px;
+    position: fixed;
+    background: rgb(178,202,255);
+    background: linear-gradient(90deg, rgba(178,202,255,1) 0%, rgba(255,216,219,1) 100%);
+    }
+
+.logo_name {
+    display: flex;
+    direction: row;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    font-size: 600;
+}
+
+#logo {
+    width: 40px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    text-decoration: none; 
+}
+
+.home-button {
+    color: #0000008a;
+}
+
+.music-button {
+    color: black;
+}
+
+.about-us-button {
+    color: #0000008a;
+}
+
+.navigation a:hover {
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.register-button {
+    padding: 5px 10px;
+    background-color: #BC9AA8;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.register-button:hover {
+    background-color: #b48196;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    margin-right: 20px; 
+}
+
+footer {
+    width: 100%;
+    background-color: #f8f9fa00;
+    color: #0000008a;
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    background: rgb(178,202,255);
+    background: linear-gradient(90deg, rgba(178,202,255,1) 0%, rgba(255,216,219,1) 100%);
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #b48196;
+}
+
+.register {
+    display: flex;
+    width: fit-content;
+    height: 90vh;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 20px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.regis {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#side-img {
+    height: auto;
+    width: auto;
+}
+
+.typetext {
+    display: flex;
+}
+
+
+.gender-radio {
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gender-radio label {
+    display: flex;
+}
+
+.typetext {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    margin-bottom: 20px;
+    max-height: 100px;
+    border: 2.5px solid rgba(0, 0, 0, 0.08);
+    background-color: #f7e3e593;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.typetext input {
+    flex: 1;
+    width: Auto;
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0px 0px 0px 20px;
+    font-size: 15px;
+}
+
+.regis-btn {
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding: 7px 15px 3px 15px;
+    color: white;
+    background-color: #BC9AA8;
+    font-size: large;
+    margin: 15px;
+}
+
+.regis-btn:hover {
+    background-color: #b48196;
+}
+
+.home-button {
+    color: black;
+}
+
+.home-button:hover{
+    color: #b48196;
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        font-size: smaller;
+    }
+
+    .textinfo {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .navigation{
+    display: none;
+}
+    
+.hamburger-icon {
+    display: block;
+    font-size: 24px;
+    background-color: #00000000;
+    border-color: #00000000;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+
+.white-box {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 120px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.white-box.show {
+    display: block;
+}
+
+.white-navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.white-navigation a {
+    display: block;
+    padding: 10px;
+    color: #202334;
+    text-decoration: none;
+}
+
+.white-navigation a:hover {
+    background-color: #ffd8db;
+}
+
+}
+
+@media screen and (min-width: 769px) {
+.hamburger-icon {
+    display: none;
+}
+
+.white-navigation {
+    display: none;
+}
+}

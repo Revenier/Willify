@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail song</title>
+    <link rel="stylesheet" href="song-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo_name">
+            <div class="logo">
+                <img src="/Assets/Icon.png" alt="" id="logo">
+            </div>
+            <div class="web-name">Willify</div>
+        </div>
+        <button class="hamburger-icon" onclick="toggleMenu()">&#9776;</button>
+        <nav id="navigation" class="navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </header>
+
+    <div class="contents">
+        <img src="/Assets/Arrow.png" id="back-button-icon" onclick="goBack()">
+            
+        <div class="the-song">
+            
+            <div class="left-content">
+                <figure>
+                    <img src="/Assets/fearless.jpeg" id="the-song-pic">
+                    <div class="info">
+                        <p class="song-title">Fearless</p>
+                        <audio id="audio-web" src="/Assets/Taylor Swift - Fearless.mp3" controls></audio>
+                
+                        <p class="song-artist">Artist : Taylor Swift</p>
+                        <p class="song-album">Album : Fearless </p>
+                        <p>Genre : Country pop - pop rock</p>
+                        <p class="release-date">Release date : 	January 4, 2010</p>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="mid-content">
+                <h2>Lyric</h2>
+                <div class="lyrics-box">
+                    <p class="lyrics">
+                        There's somethin' bout the way<br>
+                        The street looks when it's just rainedy<br>
+                        There's a glow off the pavement<br>
+                        You walk me to the car<br>
+                        And you know I wanna ask you to dance right there<br>
+                        In the middle of the parking lot<br>
+                        Yeah<br>
+                        Oh, yeah<br><br>
+                        We're drivin' down the road<br>
+                        I wonder if you know<br>
+                        I'm tryin' so hard not to get caught up now<br>
+                        But you're just so cool<br>
+                        Run your hands through your hair<br>
+                        Absent mindedly makin' me want you<br><br>
+                        And I don't know how it gets better than this<br>
+                        You take my hand and drag me head first<br>
+                        Fearless<br>
+                        And I don't know why<br>
+                        But with you I'd dance in a storm<br>
+                        In my best dress<br>
+                        Fearless<br><br>
+                        So baby drive slow<br>
+                        'Til we run out of road in this one horse town<br>
+                        I wanna stay right here in this passenger seat<br>
+                        You put your eyes on me<br>
+                        In this moment now capture it, remember it<br><br>
+                        'Cause I don't know how it gets better than this<br>
+                        You take my hand and drag me head first<br>
+                        Fearless<br>
+                        And I don't know why<br>
+                        But with you I'd dance in a storm<br>
+                        In my best dress<br>
+                        Fearless<br>
+                        Oh, oh<br><br>
+                        Well you stood there with me in the doorway<br>
+                        My hands shake<br>
+                        I'm not usually this way but<br>
+                        You pull me in and I'm a little more brave<br>
+                        It's the first kiss, it's flawless, really something, it's fearless<br>
+                        Oh, yeah<br><br>
+                        'Cause I don't know how it gets better than this<br>
+                        You take my hand and drag me head first<br>
+                        Fearless<br><br>
+                        And I don't know why<br>
+                        But with you I'd dance in a storm<br>
+                        In my best dress<br>
+                        Fearless<br>
+                        'Cause I don't know how it gets better than this<br>
+                        You take my hand and drag me head first<br>
+                        Fearless<br>
+                        And I don't know why<br>
+                        But with you I'd dance in a storm<br>
+                        In my best dress<br>
+                        Fearless<br>
+                        Oh, oh, oh yeah<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <h2 class="Queue">Other songs</h2>
+                <div class="rec-grid">
+                    <div class="rec-song-list">
+                        <a href="/song-detail/intrusive-thoughts-natalie-jane.html" class="list">
+                            <img src="/Assets/Intrusive Thoughts.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Intrusive Thoughts</p>
+                                <p class="artist">Natalie Jane</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/wake-me-up-avicii.html" class="list">
+                            <img src="/Assets/wake-me-up-avicii.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Wake Me Up</p>
+                                <p class="artist">Avicii</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/unconditionally.html" class="list">
+                            <img src="/Assets/unconditionally.png" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Unconditionally</p>
+                                <p class="artist">Katy Perry</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/rewrite-the-stars.html" class="list">
+                            <img src="/Assets/rewrite the stars - the greatest showman.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Rewrite the Stars</p>
+                                <p class="artist"> Anne-Marie and James Arthur</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/beauty-and-the-beast.html" class="list">
+                            <img src="/Assets/beauty and the beast.jpeg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Beauty and the Beast</p>
+                                <p class="artist">Ariana Grande and John Legend</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/love-is-an-open-door.html" class="list">
+                            <img src="/Assets/love is an open door.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">Love is an open door</p>
+                                <p class="artist">Kristen Bell and Santino Fontana</p>
+                            </div>
+                        </a>
+        
+                        <a href="/song-detail/For the First Time in Forever.html" class="list">
+                            <img src="/Assets/frozen.jpg" id="rec-song-pic">
+                            <div class="rec-song-name"> 
+                                <p class="song-name">For the First Time in Forever</p>
+                                <p class="artist">Idina Menzel and Kristen Bell</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Willify. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+
+    <div id="whiteBox" class="white-box">
+        <nav id="whiteNavigation" class="white-navigation">
+            <li type="none"><a href="/home/home.html" class="home-button">Home</a></li>
+            <li type="none"><a href="/song/song.html" class="music-button">Song</a></li>
+            <li type="none"><a href="/about-us/about_us.html" class="about-us-button">About Us</a></li>
+            <li type="none"><a href="/register/register.html" class="register-button">Register</a></li>
+        </nav>
+    </div>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>
